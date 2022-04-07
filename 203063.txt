@@ -1,0 +1,19 @@
+4.git clone https://github.com/hristijan17/SI_2022_lab1_203063.git
+5.notepad shopping_list.txt
+git add .
+git commit -m "Add 5 items to the shopping list"
+6.git commit -m "Add quantities to the items"
+7.git -b branch1 git -b branch2
+9. git push origin master
+git push origin branch1
+git push origin branch2
+11.git commit -m "Change quantity of item #5"
+16.git commit -m "Modify item #4"
+18.git add shopping_list.txt
+git commit --amend (Го едитираме името на комитот и го затвораме едиторот со esc + :wq + enter)
+20.git merge branch1 (Оваа гранка се спои без конфликт со fast-forward метода + внесовме име 
+на комит во едиторот и го затворивме како во предходниот чекор).
+21.git merge branch2
+Auto-merging shopping_list.txt (Овдека се јави конфликт, а го решивме на начин такашто го
+едитиравме самиот фајл - ги средивме конфликтните појави), потоа со командата
+ git commit -a -m "Conflict solved" - комитиравме.).
