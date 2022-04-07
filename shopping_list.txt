@@ -3,3 +3,6 @@ Banana x 1
 Orange x 2
 Kiwi x 2
 Peach x 3
+Mango x 2
+Lemon x2
+
